@@ -1,0 +1,5 @@
+package com.thevarungupta.department.service.repository;
+
+public class DepartmentRepository {
+
+}

@@ -1,0 +1,5 @@
+package com.thevarungupta.employee.service.services;
+
+public class EmployeeService {
+
+}

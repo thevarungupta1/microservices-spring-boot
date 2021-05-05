@@ -1,0 +1,22 @@
+package com.thevarungupta.employee.service.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.thevarungupta.employee.service.entity.Employee;
+import com.thevarungupta.employee.service.repository.EmployeeRepository;
+
+@Service
+public class EmployeeService {
+
+	@Autowired
+	private EmployeeRepository employeeRepository;
+	
+	public Employee saveEmployee(Employee employee) {
+		return employeeRepository.save(employee);
+	}
+	
+	public Employee findEmployeeById(Long id) {
+		return employeeRepository.findEmployeeById(id);
+	}
+}

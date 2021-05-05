@@ -1,0 +1,5 @@
+package com.thevarungupta.department.service.controller;
+
+public class DepartmentController {
+
+}

@@ -1,0 +1,5 @@
+package com.thevarungupta.employee.service.repository;
+
+public class EmployeeRepository {
+
+}

@@ -1,0 +1,9 @@
+package com.thevarungupta.employee.service.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.thevarungupta.employee.service.entity.Employee;
+
+public interface EmployeeRepository extends JpaRepository<Employee, Long>{
+
+}

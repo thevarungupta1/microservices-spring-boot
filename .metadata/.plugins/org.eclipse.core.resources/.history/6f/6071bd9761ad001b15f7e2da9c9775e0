@@ -1,0 +1,8 @@
+package com.thevarungupta.department.service.entity;
+
+public class EmployeeResponse {
+	
+	private Employee employee;
+	private Department department
+
+}

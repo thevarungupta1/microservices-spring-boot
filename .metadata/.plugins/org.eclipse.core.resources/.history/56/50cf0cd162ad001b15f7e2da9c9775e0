@@ -1,0 +1,5 @@
+package com.thevarungupta.employee.service.dto;
+
+public class Department {
+
+}
