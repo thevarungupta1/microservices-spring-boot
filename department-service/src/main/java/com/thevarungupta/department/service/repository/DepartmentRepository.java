@@ -8,6 +8,6 @@ import com.thevarungupta.department.service.entity.Department;
 @Repository
 public interface DepartmentRepository extends JpaRepository<Department, Long>{
 	
-	Department findDepartmentById(Long id);
+	Department findDepartmentById(Long departmentId);
 
 }
