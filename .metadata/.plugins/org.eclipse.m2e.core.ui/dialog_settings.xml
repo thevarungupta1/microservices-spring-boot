@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Projects\microservices\service-registry"/>
+			<item value="D:\Projects\microservices\service-registery"/>
+			<item value="D:\Projects\microservices\employee-service"/>
 			<item value="D:\Projects\microservices\department-service"/>
 		</list>
 		<list key="projectNameTemplate">

@@ -11,8 +11,6 @@ public class Department {
 		
 	}
 	
-
-
 	public Department(Long id, String departmentName, String departmentAddress, String departmentCode) {
 		super();
 		this.id = id;

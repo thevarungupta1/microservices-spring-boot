@@ -21,13 +21,13 @@ public class Employee {
 		
 	}
 
-	public Employee(Long id, String firstName, String lastName, String email, Long departmentId) {
+	public Employee(Long employeeId, String firstName, String lastName, String email, Long departmentId) {
 		super();
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.email = email;
-		departmentId = departmentId;
+		this.departmentId = departmentId;
 	}
 
 	public Long getId() {
@@ -67,7 +67,7 @@ public class Employee {
 	}
 
 	public void setDepartmentId(Long departmentId) {
-		departmentId = departmentId;
+		this.departmentId = departmentId;
 	}	
 
 }
